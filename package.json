@@ -1,0 +1,21 @@
+{
+  "name": "pm-automation",
+  "version": "1.0.0",
+  "description": "Playwright Automation Framework for Purchase Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:fast": "SLOWMO=0 npx playwright test --headed",
+    "test:slow": "SLOWMO=1000 npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^17.4.2"
+  }
+}

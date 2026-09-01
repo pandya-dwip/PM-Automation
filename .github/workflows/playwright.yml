@@ -1,0 +1,34 @@
+name: Playwright Tests
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    - name: Run Playwright tests
+      env:
+        CI: true
+        BASE_URL: ${{ secrets.BASE_URL || 'http://199.199.50.165:3000' }}
+        DEVELOPER_USERNAME: ${{ secrets.DEVELOPER_USERNAME || 'dwip' }}
+        DEVELOPER_PASSWORD: ${{ secrets.DEVELOPER_PASSWORD || 'Dwip@123' }}
+        ACCOUNTS_USERNAME: ${{ secrets.ACCOUNTS_USERNAME || 'invoice' }}
+        ACCOUNTS_PASSWORD: ${{ secrets.ACCOUNTS_PASSWORD || 'cimcon@123' }}
+      run: npx playwright test
+    - uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30
