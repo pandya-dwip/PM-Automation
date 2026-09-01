@@ -1,0 +1,21 @@
+# Force GitHub Linguist to detect and include all TypeScript files in repository language statistics
+*.ts linguist-detectable=true
+*.ts linguist-documentation=false
+*.ts linguist-vendored=false
+
+# Override default exclusions for test and vendor-named directories
+tests/** linguist-detectable=true
+tests/** linguist-documentation=false
+tests/** linguist-vendored=false
+
+pages/** linguist-detectable=true
+pages/** linguist-vendored=false
+
+helpers/** linguist-detectable=true
+helpers/** linguist-vendored=false
+
+fixtures/** linguist-detectable=true
+fixtures/** linguist-vendored=false
+
+Data/** linguist-detectable=true
+Data/** linguist-vendored=false
