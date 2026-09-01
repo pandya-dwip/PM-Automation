@@ -1,6 +1,18 @@
-# 📋 Requisitions — Indents Automation Test Suite
+<div align="center">
 
-Comprehensive Playwright test automation suite for the **Purchase Module — Requisition Indents** subsystem.
+# 📋 Requisitions — Indents Automation
+
+**End-to-End Automated Test Suites for Indents & Project Management**
+
+![Module](https://img.shields.io/badge/module-Requisition%20Indents-blue?style=flat-square)
+![Framework](https://img.shields.io/badge/framework-Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
+![Language](https://img.shields.io/badge/language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Coverage](https://img.shields.io/badge/coverage-Project%20Creation%20%26%20Grid%20Selection-blueviolet?style=flat-square)
+![Validation](https://img.shields.io/badge/verification-Strict%20Exact%20Matching-success?style=flat-square)
+
+Incremental validation, dynamic project creation, grid persistence, and project selection for material requisitions.
+
+</div>
 
 ---
 

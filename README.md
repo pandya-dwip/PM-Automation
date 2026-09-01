@@ -1,6 +1,20 @@
-# 🏭 Purchase Module (PM) QA Automation Test Framework
+<div align="center">
 
-This document provides complete technical documentation for the **Purchase Module (PM) Playwright TypeScript QA Automation Test Suite**, including framework architecture, Page Object Model (POM) design standards, centralized structured logging, complete test case registry, stable `data-testid` selector strategy, and execution instructions.
+# 🏭 Purchase Module (PM) QA Automation
+
+**Enterprise End-to-End Test Automation Framework for CIMCON Purchase Module**
+
+![Framework](https://img.shields.io/badge/framework-Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
+![Language](https://img.shields.io/badge/language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Architecture](https://img.shields.io/badge/architecture-Page%20Object%20Model%20(POM)-007ACC?style=flat-square)
+![Test Runner](https://img.shields.io/badge/runner-Chromium-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Logging](https://img.shields.io/badge/logging-Structured%20Visual%20Logger-orange?style=flat-square)
+![Validation](https://img.shields.io/badge/verification-Strict%20Exact%20Matching-success?style=flat-square)
+![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+Robust, role-based, end-to-end automated test suites covering Requisitions, Vendor Onboarding, Multi-level Approvals, Database Grids, and PO Integrations.
+
+</div>
 
 ---
 

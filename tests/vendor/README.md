@@ -1,6 +1,19 @@
-# 🏢 Vendor Management Automation — Master Test Specification & Documentation
+<div align="center">
 
-Comprehensive Playwright test automation specification covering end-to-end workflows, role-based access control, field-level validations, duplicate prevention, document handling, state machines, filter drawer interactions, and cross-module validations for the **Vendor Management Module**.
+# 🏢 Vendor Management Automation
+
+**Master Test Specification & Comprehensive End-to-End Documentation**
+
+![Module](https://img.shields.io/badge/module-Vendor%20Management-blue?style=flat-square)
+![Framework](https://img.shields.io/badge/framework-Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white)
+![Language](https://img.shields.io/badge/language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Suites](https://img.shields.io/badge/suites-14%20Test%20Specs-orange?style=flat-square)
+![Role Scope](https://img.shields.io/badge/roles-Developer%20%7C%20Accounts-blueviolet?style=flat-square)
+![Validation](https://img.shields.io/badge/verification-Strict%20Exact%20Matching-success?style=flat-square)
+
+End-to-end workflows, role-based permissions, multi-tier approvals, dynamic state machines, document validation, and PO generation integration.
+
+</div>
 
 ---
 
